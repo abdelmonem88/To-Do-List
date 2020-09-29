@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TO-DO List</title>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/all.min.css" />
+		<!-- Google Font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Custom Styles -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main>
+			<h1 class="todo-title">TO-DO List</h1>
+			<section>
+				<p class="alret">This is alert</p>
+				<form class="todo-form">
+					<input type="text" class="task-input" placeholder="Enter New Task" />
+					<input type="submit" class="submit-btn btn" value="Submit" />
+				</form>
+				<div class="tasks-container">
+					<div class="tasks-list"></div>
+					<button class="clear-all btn">Clear All</button>
+				</div>
+			</section>
+		</main>
+		<!-- Main JS -->
+		<script type="module" src="js/main.js"></script>
+	</body>
+</html>
