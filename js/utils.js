@@ -21,6 +21,6 @@ export const clearAllTasks = () => {
 	const container = getElement('.tasks-container');
 	tasksList.innerHTML = '';
 	container.classList.remove('show-container');
-	showAlret('alret-red', 'all items have been deleted!');
+	showAlret('alret-red', 'all tasks have been deleted!');
 	localStorage.removeItem('tasks');
 };
